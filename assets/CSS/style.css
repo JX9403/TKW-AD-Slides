@@ -114,7 +114,19 @@
   font-size: 1.8rem;
   color: var(--color-red);
 }
-.adminSearch-box-save {
+
+.adminSearch-box-edit {
+  text-align: center;
+  color: var(--color-blue);
+  font-style: italic;
+  font-size: 1.8rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminSearch-box-delete {
   height: 100%;
   width: 100%;
   display: flex;
@@ -122,7 +134,7 @@
   align-items: center;
 
 }
-.adminSearch-box-save i {
+.adminSearch-box-delete i {
   font-size: 3.4rem;
   cursor: pointer;
   color: var(--color-red);

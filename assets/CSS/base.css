@@ -176,7 +176,7 @@ ul {
 /* End Form  */
 
 /* popup */
-.overlay {
+.overlay2 {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -187,12 +187,12 @@ ul {
   visibility: hidden;
   opacity: 0;
 }
-.overlay:target {
+.overlay2:target {
   visibility: visible;
   opacity: 1;
 }
 
-.popup {
+.popup2 {
   margin: 250px auto;
   padding: 40px 40px 0px 40px;
   background: #fff;
@@ -202,14 +202,7 @@ ul {
   position: relative;
   text-align: center;
 }
-
-.popup h2 {
-  color: #333;
-  font-size: 2rem;
-  margin: 30px 0;
-  font-size: 2.4rem;
-}
-.popup .close {
+.popup2 .close {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -219,21 +212,28 @@ ul {
   text-decoration: none;
   color: #333;
 }
+.popup2 h2 {
+  color: #333;
+  font-size: 2rem;
+  margin: 30px 0;
+  font-size: 2.4rem;
+}
 
-.popup .btn-grp{
+
+.popup2 .btn-grp{
   width: 100%;
   display: flex;
   justify-content: right;
 }
 
-.popup .btn{
+.popup2 .btn{
   border-radius: 8px;
   width: 100px;
   height: 44px;
   margin: 20px 0 30px 20px;
 }
 
-.popup .btn__white{
+.popup2 .btn__white{
   border-color: var(--color-black);
 }
 
